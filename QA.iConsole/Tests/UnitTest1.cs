@@ -28,12 +28,8 @@ namespace QA.iConsole
     {
 
         [TestMethod]
-        // La declaracion del objeto debe estar en la misma clase
-        //[DynamicData("RetencionIvaCaso1", DynamicDataSourceType.Method)]
-        //[DynamicData("RetencionIvaCaso2", DynamicDataSourceType.Method)]
-        // En una clase static     
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
-        public void Retencion_Must_Be(TestRetenciones opModel)
+        public void Retencion_Must_Be(TestRetenciones testData)
         {
             #region Selenium
 
@@ -41,9 +37,7 @@ namespace QA.iConsole
 
             string loQueObtengoDeSelenium = "assert";
 
-            Assert.AreEqual(opModel.AssertRetencion, loQueObtengoDeSelenium);
+            Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
     }
-
-    
 }
