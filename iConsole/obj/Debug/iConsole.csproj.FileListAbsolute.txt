@@ -1,0 +1,7 @@
+C:\Users\plurbi\source\repos\iConsole\iConsole\bin\Debug\iConsole.exe.config
+C:\Users\plurbi\source\repos\iConsole\iConsole\bin\Debug\iConsole.exe
+C:\Users\plurbi\source\repos\iConsole\iConsole\bin\Debug\iConsole.pdb
+C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.csprojAssemblyReference.cache
+C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.csproj.CoreCompileInputs.cache
+C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.exe
+C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.pdb
