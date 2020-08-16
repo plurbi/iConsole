@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QA.iConsole.DataLoaders;
 using QA.iConsole.Models.TestObjects;
@@ -26,10 +27,77 @@ namespace QA.iConsole
     [TestClass]
     public class RetencionesArgentina
     {
+        [AssemblyInitialize]
+        public static void AssemblyInit(TestContext context)
+        {
+            // Executes once before the test run. (Optional)
+        }
+    
+        [ClassInitialize]
+        public static void TestFixtureSetup(TestContext context)
+        {
+            // Executes once for the test class. (Optional)
+        }
+    
+        [TestInitialize]
+        public void Setup()
+        {
+            // Runs before each test. (Optional)
+        }
+    
+        [AssemblyCleanup]
+        public static void AssemblyCleanup()
+        {
+            // Executes once after the test run. (Optional)
+        }
+    
+        [ClassCleanup]
+        public static void TestFixtureTearDown()
+        {
+            // Runs once after all tests in this class are executed. (Optional)
+            // Not guaranteed that it executes instantly after all tests from the class.
+        }
 
+        [TestCleanup]
+        public void TearDown()
+        {
+            // Runs after each test. (Optional)
+        }
+      
         [TestMethod]
+        [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
         public void Retencion_Must_Be(TestRetenciones testData)
+        {
+            #region Selenium
+            var op = testData.OrdenPago;
+            // manipulo la UI y obtengo el/los valores a testear
+            #endregion
+
+            string loQueObtengoDeSelenium = "assert";
+
+            Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
+        }
+
+        [TestMethod]
+        [Category("RetencionesArgenitina")]
+        [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso2), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
+        public void Retencion_Must_Be2(TestRetenciones testData)
+        {
+            #region Selenium
+            var op = testData.OrdenPago;
+            // manipulo la UI y obtengo el/los valores a testear
+            #endregion
+
+            string loQueObtengoDeSelenium = "assert";
+
+            Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
+        }
+
+        [Ignore("Test ignorado por pato")]
+        [TestMethod]
+        [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
+        public void Retencion_Must_Be_Ignored(TestRetenciones testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
