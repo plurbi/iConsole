@@ -32,7 +32,8 @@ namespace QA.iConsole
         public void Retencion_Must_Be(TestRetenciones testData)
         {
             #region Selenium
-
+            var op = testData.OrdenPago;
+            // manipulo la UI y obtengo el/los valores a testear
             #endregion
 
             string loQueObtengoDeSelenium = "assert";
