@@ -16,7 +16,7 @@ namespace QA.iConsole.Tests
     {
         [TestMethod]
         [Category("RetencionesArgenitina")]
-        [DataTestMethod]
+       // [DataTestMethod]
         [RetencionesDataSource]
         public void Retencion_Must_Be(TestRetenciones testData)
         {

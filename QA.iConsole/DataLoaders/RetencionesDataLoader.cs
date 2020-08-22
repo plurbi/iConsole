@@ -46,7 +46,7 @@ namespace QA.iConsole.DataLoaders
                     },
                     Tipo_Pago = 2
                 },
-                AssertRetencion = "assert-fail"
+                AssertRetencion = "assert"
             };
 
             return new[] {

@@ -53,7 +53,7 @@ namespace QA.iConsole.Attributes
                     },
                     Tipo_Pago = 3
                 },
-                AssertRetencion = "assert-fail"
+                AssertRetencion = "assert"
             };
             return new[] {
                 new TestRetenciones[] { testRetencionesParams },
