@@ -25,32 +25,33 @@ namespace QA.iConsole
     #endregion
 
     [TestClass]
-    public class RetencionesArgentina
+    public class DinamicDataTests
     {
+        #region Metodos 
         [AssemblyInitialize]
         public static void AssemblyInit(TestContext context)
         {
             // Executes once before the test run. (Optional)
         }
-    
+
         [ClassInitialize]
         public static void TestFixtureSetup(TestContext context)
         {
             // Executes once for the test class. (Optional)
         }
-    
+
         [TestInitialize]
         public void Setup()
         {
             // Runs before each test. (Optional)
         }
-    
+
         [AssemblyCleanup]
         public static void AssemblyCleanup()
         {
             // Executes once after the test run. (Optional)
         }
-    
+
         [ClassCleanup]
         public static void TestFixtureTearDown()
         {
@@ -63,7 +64,9 @@ namespace QA.iConsole
         {
             // Runs after each test. (Optional)
         }
-      
+
+        #endregion
+
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
@@ -79,6 +82,7 @@ namespace QA.iConsole
             Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
 
+     
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso2), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]

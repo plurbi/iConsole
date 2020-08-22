@@ -49,9 +49,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\RetencionesDataSourceAttribute.cs" />
     <Compile Include="DataLoaders\RetencionesDataLoader.cs" />
     <Compile Include="Models\TestObjects\TestRetenciones.cs" />
-    <Compile Include="Tests\UnitTest1.cs" />
+    <Compile Include="Tests\CustomAttributeTests.cs" />
+    <Compile Include="Tests\DinamicDataTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
