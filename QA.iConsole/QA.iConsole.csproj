@@ -50,14 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\RetencionesDataSourceAttribute.cs" />
+    <Compile Include="Attributes\TestMethodOverrideAttribute.cs" />
     <Compile Include="DataLoaders\RetencionesDataLoader.cs" />
     <Compile Include="Extensions\CustomAsserts.cs" />
     <Compile Include="Models\TestObjects\TestRetenciones.cs" />
     <Compile Include="Tests\AssertsTests.cs" />
+    <Compile Include="Tests\BaseTest.cs" />
     <Compile Include="Tests\CustomAttributeTests.cs" />
     <Compile Include="Tests\DataLoadersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\LifeCycleTests.cs" />
+    <Compile Include="Tests\ParallelizeOneTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

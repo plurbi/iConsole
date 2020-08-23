@@ -14,11 +14,12 @@ namespace QA.iConsole.Tests
     [TestClass]
     public class CustomAttributeTests
     {
+
         [TestMethod]
         [Category("RetencionesArgenitina")]
        // [DataTestMethod]
         [RetencionesDataSource]
-        public void Retencion_Must_Be(TestRetenciones testData)
+        public void Attribute_DataSource_Example(TestRetenciones testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
@@ -30,5 +31,10 @@ namespace QA.iConsole.Tests
             Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
 
+        [TestMethodOverride]
+        public void Overriden_TestMethod_Attribute()
+        {
+
+        }
     }
 }

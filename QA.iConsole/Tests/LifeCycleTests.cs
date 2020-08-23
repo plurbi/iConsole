@@ -1,6 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using QA.iConsole.Extensions;
+using System;
+
 namespace QA.iConsole.Tests
 {
     [TestClass]
@@ -17,7 +19,8 @@ namespace QA.iConsole.Tests
         [AssemblyInitialize]
         public static void AssemblyInit(TestContext context)
         {
-            Debug.WriteLine("AssemblyInitialize");
+            Debug.WriteLine(DateTime.Now.ToString());
+            Debug.WriteLine("LifeCycle - AssemblyInitialize");
         }
 
         [ClassInitialize]
@@ -38,7 +41,8 @@ namespace QA.iConsole.Tests
         [AssemblyCleanup]
         public static void AssemblyCleanup()
         {
-            Debug.WriteLine("AssemblyCleanup");
+            Debug.WriteLine(DateTime.Now.ToString());
+            Debug.WriteLine("LifeCycle - AssemblyCleanup");
             // Executes once after the test run. (Optional)
         }
 

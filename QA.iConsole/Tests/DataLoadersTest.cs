@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QA.iConsole.DataLoaders;
 using QA.iConsole.Models.TestObjects;
@@ -27,8 +28,6 @@ namespace QA.iConsole
     [TestClass]
     public class DataLoadersTest
     {
-    
-
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
@@ -44,11 +43,10 @@ namespace QA.iConsole
             Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
 
-     
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso2), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
-        public void Retencion_Must_Be2(TestRetenciones testData)
+        public void DynamicData_and_Dataloaders_Example(TestRetenciones testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
@@ -63,7 +61,8 @@ namespace QA.iConsole
         [Ignore("Test ignorado por pato")]
         [TestMethod]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
-        public void Retencion_Must_Be_Ignored(TestRetenciones testData)
+       
+        public void Ignore_Example(TestRetenciones testData)
         {
             #region Selenium
             var op = testData.OrdenPago;

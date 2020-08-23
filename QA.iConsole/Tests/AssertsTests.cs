@@ -15,14 +15,14 @@ namespace QA.iConsole.Tests
         private string stringSharedTest;
 
         [TestMethod]
-        public void CustomAssertOk()
+        public void Custom_Assert_Ok()
         {
             stringSharedTest = "TEST 2!!!";
             Assert.That.ExampleExtensionAssert("TEST 2!!!", stringSharedTest);
             Debug.WriteLine(stringSharedTest);
         }
         [TestMethod]
-        public void CustomAssertFail()
+        public void Custom_Assert_Fail()
         {
             stringSharedTest = "va a fallar!!!";
             Assert.That.ExampleExtensionAssert("fail", stringSharedTest);
