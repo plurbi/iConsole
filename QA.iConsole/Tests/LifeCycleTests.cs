@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using QA.iConsole.Extensions;
 using System;
+using System.Threading;
 
 namespace QA.iConsole.Tests
 {
@@ -77,6 +78,15 @@ namespace QA.iConsole.Tests
 
             Debug.WriteLine(stringSharedTest);
         }
-
+        [TestMethod]
+        public void Parallel_wait_5_secs()
+        {
+            Thread.Sleep(5000);
+        }
+        [TestMethod]
+        public void Parallel_wait_10_secs()
+        {
+            Thread.Sleep(10000);
+        }
     }
 }
