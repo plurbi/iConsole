@@ -47,20 +47,24 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Attributes\RetencionesDataSourceAttribute.cs" />
     <Compile Include="Attributes\TestMethodOverrideAttribute.cs" />
+    <Compile Include="DataLoaders\OrderListDataLoader.cs" />
     <Compile Include="DataLoaders\RetencionesDataLoader.cs" />
+    <Compile Include="Exceptions\OrderListExecutionException.cs" />
     <Compile Include="Extensions\CustomAsserts.cs" />
-    <Compile Include="Models\TestObjects\TestRetenciones.cs" />
+    <Compile Include="Models\TestObjects\TestDataSource_UserStory_One.cs" />
     <Compile Include="Tests\AssertsTests.cs" />
     <Compile Include="Tests\BaseTest.cs" />
     <Compile Include="Tests\CustomAttributeTests.cs" />
     <Compile Include="Tests\DataLoadersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\LifeCycleTests.cs" />
-    <Compile Include="Tests\OrderedTests.cs" />
+    <Compile Include="Tests\OrderedByDataSource.cs" />
+    <Compile Include="Tests\OrderedByMSTests.cs" />
     <Compile Include="Tests\ParallelizeOneTests.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,7 @@ namespace QA.iConsole.Attributes
     {
         public IEnumerable<object[]> GetData(MethodInfo methodInfo)
         {
-            TestRetenciones testRetencionesParams = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -27,7 +27,7 @@ namespace QA.iConsole.Attributes
                 },
                 AssertRetencion = "assert"
             };
-            TestRetenciones testRetencionesParams2 = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams2 = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -40,7 +40,7 @@ namespace QA.iConsole.Attributes
                 },
                 AssertRetencion = "assert"
             };
-            TestRetenciones testRetencionesParams3 = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams3 = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -54,9 +54,9 @@ namespace QA.iConsole.Attributes
                 AssertRetencion = "assert"
             };
             return new[] {
-                new TestRetenciones[] { testRetencionesParams },
-                new TestRetenciones[] { testRetencionesParams2 },
-                new TestRetenciones[] { testRetencionesParams3 }
+                new TestDataSource_UserStory_One[] { testRetencionesParams },
+                new TestDataSource_UserStory_One[] { testRetencionesParams2 },
+                new TestDataSource_UserStory_One[] { testRetencionesParams3 }
             };
         }
 

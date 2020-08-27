@@ -13,7 +13,7 @@ namespace QA.iConsole.Tests
         [Category("RetencionesArgenitina")]
        // [DataTestMethod]
         [RetencionesDataSource]
-        public void Attribute_DataSource_Example(TestRetenciones testData)
+        public void Attribute_DataSource_Example(TestDataSource_UserStory_One testData)
         {
             #region Selenium
             var op = testData.OrdenPago;

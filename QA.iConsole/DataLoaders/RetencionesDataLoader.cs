@@ -6,9 +6,9 @@ namespace QA.iConsole.DataLoaders
 {
     public static class RetencionesDataLoader
     {
-        public static IEnumerable<TestRetenciones[]> RetencionIvaCaso1()
+        public static IEnumerable<TestDataSource_UserStory_One[]> RetencionIvaCaso1()
         {
-            TestRetenciones testRetencionesParams = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -23,7 +23,7 @@ namespace QA.iConsole.DataLoaders
                 },
                 AssertRetencion = "assert"
             };
-            TestRetenciones testRetencionesParams2 = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams2 = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -36,7 +36,7 @@ namespace QA.iConsole.DataLoaders
                 },
                 AssertRetencion = "assert"
             };
-            TestRetenciones testRetencionesParams3 = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams3 = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -51,16 +51,16 @@ namespace QA.iConsole.DataLoaders
             };
 
             return new[] {
-                new TestRetenciones[] { testRetencionesParams },
-                new TestRetenciones[] { testRetencionesParams2 },
-                new TestRetenciones[] { testRetencionesParams3 }
+                new TestDataSource_UserStory_One[] { testRetencionesParams },
+                new TestDataSource_UserStory_One[] { testRetencionesParams2 },
+                new TestDataSource_UserStory_One[] { testRetencionesParams3 }
             };
             //yield return new TestRetenciones[] { testRetencionesParams };
             //yield return new TestRetenciones[] { testRetencionesParams2 };
         }
-        public static IEnumerable<TestRetenciones[]> RetencionIvaCaso2()
+        public static IEnumerable<TestDataSource_UserStory_One[]> RetencionIvaCaso2()
         {
-            TestRetenciones testRetencionesParams = new TestRetenciones()
+            TestDataSource_UserStory_One testRetencionesParams = new TestDataSource_UserStory_One()
             {
                 OrdenPago = new ComprobanteOPModel()
                 {
@@ -75,7 +75,7 @@ namespace QA.iConsole.DataLoaders
             };
            
             return new[] {
-                new TestRetenciones[] { testRetencionesParams }
+                new TestDataSource_UserStory_One[] { testRetencionesParams }
               };
             //yield return new TestRetenciones[] { testRetencionesParams };
             //yield return new TestRetenciones[] { testRetencionesParams2 };

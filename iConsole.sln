@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iConsole", "iConsole\iConsole.csproj", "{217DE40B-55AF-4F3F-BD15-4E337C07A962}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.iConsole", "QA.iConsole\QA.iConsole.csproj", "{3E620363-6B2A-4CCB-9DAE-E25C80168BCC}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{217DE40B-55AF-4F3F-BD15-4E337C07A962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{217DE40B-55AF-4F3F-BD15-4E337C07A962}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{217DE40B-55AF-4F3F-BD15-4E337C07A962}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{217DE40B-55AF-4F3F-BD15-4E337C07A962}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E620363-6B2A-4CCB-9DAE-E25C80168BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E620363-6B2A-4CCB-9DAE-E25C80168BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E620363-6B2A-4CCB-9DAE-E25C80168BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU

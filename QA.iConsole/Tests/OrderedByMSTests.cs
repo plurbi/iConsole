@@ -9,46 +9,46 @@ using System.Threading.Tasks;
 namespace QA.iConsole.Tests
 {
     [TestClass]
-    public class OrderedTests
+    public class OrderedByMSTests
     {
         int delay = 3000;
         [TestMethod]
-        public void QA_10_Patricio()
+        public void QA_10_One()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_20_Salome()
+        public void QA_20_Two()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_30_Cintia()
+        public void QA_30_Three()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_15_Bibbop()
+        public void QA_15_Four()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_15_Otro()
+        public void QA_15_Five()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_15_AOtro()
+        public void QA_15_Six()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_32_AOtro()
+        public void QA_32_Seven()
         {
             Thread.Sleep(delay);
         }
         [TestMethod]
-        public void QA_11_AOtro()
+        public void QA_11_Eight()
         {
             Thread.Sleep(delay);
         }

@@ -28,7 +28,7 @@ namespace QA.iConsole.Tests
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
-        public void Retencion_Must_Be(TestRetenciones testData)
+        public void Retencion_Must_Be(TestDataSource_UserStory_One testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
@@ -43,7 +43,7 @@ namespace QA.iConsole.Tests
         [TestMethod]
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso2), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
-        public void DynamicData_and_Dataloaders_Example(TestRetenciones testData)
+        public void DynamicData_and_Dataloaders_Example(TestDataSource_UserStory_One testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
@@ -59,7 +59,7 @@ namespace QA.iConsole.Tests
         [TestMethod]
         [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
        
-        public void Ignore_Example(TestRetenciones testData)
+        public void Ignore_Example(TestDataSource_UserStory_One testData)
         {
             #region Selenium
             var op = testData.OrdenPago;
