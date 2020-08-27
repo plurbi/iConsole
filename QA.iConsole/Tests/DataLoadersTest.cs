@@ -27,7 +27,7 @@ namespace QA.iConsole.Tests
     {
         [TestMethod]
         [Category("RetencionesArgenitina")]
-        [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso1), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void Retencion_Must_Be(TestDataSource_UserStory_One testData)
         {
             #region Selenium
@@ -42,7 +42,7 @@ namespace QA.iConsole.Tests
 
         [TestMethod]
         [Category("RetencionesArgenitina")]
-        [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso2), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso2), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void DynamicData_and_Dataloaders_Example(TestDataSource_UserStory_One testData)
         {
             #region Selenium
@@ -57,7 +57,7 @@ namespace QA.iConsole.Tests
 
         [Ignore("Test ignorado por pato")]
         [TestMethod]
-        [DynamicData(nameof(RetencionesDataLoader.RetencionIvaCaso1), typeof(RetencionesDataLoader), DynamicDataSourceType.Method)]
+        [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso1), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
        
         public void Ignore_Example(TestDataSource_UserStory_One testData)
         {

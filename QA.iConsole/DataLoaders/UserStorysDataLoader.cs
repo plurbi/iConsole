@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace QA.iConsole.DataLoaders
 {
-    public static class RetencionesDataLoader
+    public static class UserStorysDataLoader
     {
         public static IEnumerable<TestDataSource_UserStory_One[]> RetencionIvaCaso1()
         {
