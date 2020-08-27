@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-[assembly: Parallelize(Workers = 0, Scope = ExecutionScope.MethodLevel)]
+[assembly: Parallelize(Workers = 0, Scope = ExecutionScope.ClassLevel)]
 namespace QA.iConsole.Tests
 {
     [TestClass]

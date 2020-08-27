@@ -26,3 +26,17 @@ C:\Users\plurbi\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.cspr
 C:\Users\plurbi\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.csproj.CopyComplete
 C:\Users\plurbi\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.dll
 C:\Users\plurbi\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\QA.iConsole.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\QA.iConsole.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.csprojAssemblyReference.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.csproj.CoreCompileInputs.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.csproj.CopyComplete
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\QA.iConsole\obj\Debug\QA.iConsole.pdb

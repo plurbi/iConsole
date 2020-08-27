@@ -60,6 +60,7 @@
     <Compile Include="Tests\DataLoadersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\LifeCycleTests.cs" />
+    <Compile Include="Tests\OrderedTests.cs" />
     <Compile Include="Tests\ParallelizeOneTests.cs" />
   </ItemGroup>
   <ItemGroup>

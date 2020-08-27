@@ -5,3 +5,10 @@ C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.csprojAssembly
 C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.csproj.CoreCompileInputs.cache
 C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.exe
 C:\Users\plurbi\source\repos\iConsole\iConsole\obj\Debug\iConsole.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\bin\Debug\iConsole.exe.config
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\bin\Debug\iConsole.exe
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\bin\Debug\iConsole.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\obj\Debug\iConsole.csprojAssemblyReference.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\obj\Debug\iConsole.csproj.CoreCompileInputs.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\obj\Debug\iConsole.exe
+C:\Users\Patricio\Documents\GitHub\iConsole\iConsole\obj\Debug\iConsole.pdb

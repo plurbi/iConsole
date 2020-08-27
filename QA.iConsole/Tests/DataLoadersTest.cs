@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QA.iConsole.DataLoaders;
 using QA.iConsole.Models.TestObjects;
+using System.ComponentModel;
 
-namespace QA.iConsole
+namespace QA.iConsole.Tests
 {
 
     #region Proyecto automation
 
-  //estas ya existe en el proyecto real por eso no la pongo en carpeta
+    //estas ya existe en el proyecto real por eso no la pongo en carpeta
     public class ComprobanteOPModel
     {
         public ComprobanteModel Comprobante { get; set; } = new ComprobanteModel();
