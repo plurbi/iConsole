@@ -2,14 +2,14 @@
 
 namespace SeleniumFrameworkSimulation.Models
 {
-    public class ComprobanteModel : Prototype
+    public class ComprobanteModel : AlborQaPrototype
     {
         public int Numero_Comprobante { get; set; }
         public int ID_Comprobantes { get; set; }
 
-        public override Prototype GetClon()
+        public override AlborQaPrototype GetClon()
         {
-            return (Prototype)this.MemberwiseClone();
+            return (AlborQaPrototype)this.MemberwiseClone();
         }
 
 

@@ -53,6 +53,7 @@
     <Compile Include="Attributes\RetencionesDataSourceAttribute.cs" />
     <Compile Include="Attributes\TestMethodOverrideAttribute.cs" />
     <Compile Include="Common\PrototypeManagerConst.cs" />
+    <Compile Include="Common\TestCategoryCons.cs" />
     <Compile Include="DataLoaders\OrderListDataLoader.cs" />
     <Compile Include="DataLoaders\UserStorysDataLoader.cs" />
     <Compile Include="Exceptions\OrderListExecutionException.cs" />

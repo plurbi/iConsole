@@ -5,12 +5,12 @@ using System.Collections.Generic;
 namespace QA.iConsole.Models.TestObjects
 {
     //Esto se nomencla TestDataSource_RetencionesParaguay
-    public class TestDataSource_UserStory_One : Prototype
+    public class TestDataSource_UserStory_One : AlborQaPrototype
     {
         public ComprobanteOPModel OrdenPago { get; set; }
         public string AssertRetencion { get; set; }
 
-        public override Prototype GetClon()
+        public override AlborQaPrototype GetClon()
         {
             TestDataSource_UserStory_One test = (TestDataSource_UserStory_One)this.MemberwiseClone();
             test.OrdenPago = (ComprobanteOPModel)this.OrdenPago.GetClon();

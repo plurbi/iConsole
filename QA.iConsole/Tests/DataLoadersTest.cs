@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using QA.iConsole.Common;
 using QA.iConsole.DataLoaders;
 using QA.iConsole.Models.TestObjects;
 using System.ComponentModel;
@@ -9,7 +10,7 @@ namespace QA.iConsole.Tests
     public class DataLoadersTest
     {
         [TestMethod]
-        [Category("RetencionesArgenitina")]
+        [Category(TestCategoryCons.RetencionesArgetnina)]
         [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso1), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void Retencion_Must_Be(TestDataSource_UserStory_One testData)
         {
@@ -24,7 +25,7 @@ namespace QA.iConsole.Tests
         }
 
         [TestMethod]
-        [Category("RetencionesArgenitina")]
+        [Category(TestCategoryCons.RetencionesArgetnina)]
         [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso2), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void DynamicData_and_Dataloaders_Example(TestDataSource_UserStory_One testData)
         {
@@ -38,7 +39,7 @@ namespace QA.iConsole.Tests
             Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
         [TestMethod]
-        [Category("RetencionesArgenitina")]
+        [Category(TestCategoryCons.RetencionesArgetnina)]
         [DynamicData(nameof(UserStorysDataLoader.DataLoadersWithPrototype), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void DynamicData_and_Dataloaders_With_Prototype_Example(TestDataSource_UserStory_One testData)
         {             
