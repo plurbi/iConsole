@@ -12,7 +12,7 @@ namespace QA.iConsole.Tests
     public class PrototypeTest
     {
         [TestMethod]
-        public void TestShallowCopyPrototype()
+        public void TestDeepClonPrototype()
         {
             ComprobanteOPModel original = new ComprobanteOPModel();
             original.Comprobante.ID_Comprobantes = 1;
@@ -20,7 +20,7 @@ namespace QA.iConsole.Tests
             original.Observaciones = "Observacion original";
             original.Tipo_Pago = 1;
 
-            ComprobanteOPModel duplicado = (ComprobanteOPModel)original.ShallowCopy();
+            ComprobanteOPModel duplicado = (ComprobanteOPModel)original.GetClon();
 
             Console.WriteLine($"Original {original.Comprobante.Numero_Comprobante}, {original.Tipo_Pago}, {original.Observaciones}");
 
@@ -45,7 +45,7 @@ namespace QA.iConsole.Tests
             original.Observaciones = "Observacion original";
             original.Tipo_Pago = 1;
 
-            ComprobanteOPModel duplicado = (ComprobanteOPModel)original.DeepCopy();
+            ComprobanteOPModel duplicado = (ComprobanteOPModel)original.GetClon();
 
             Console.WriteLine($"Original {original.Comprobante.Numero_Comprobante}, {original.Tipo_Pago}");
 

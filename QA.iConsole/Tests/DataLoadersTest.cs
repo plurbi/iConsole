@@ -41,15 +41,8 @@ namespace QA.iConsole.Tests
         [Category("RetencionesArgenitina")]
         [DynamicData(nameof(UserStorysDataLoader.DataLoadersWithPrototype), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void DynamicData_and_Dataloaders_With_Prototype_Example(TestDataSource_UserStory_One testData)
-        {
-            #region Selenium
-            var op = testData.OrdenPago;
-            // manipulo la UI y obtengo el/los valores a testear
-            #endregion
-
-            string loQueObtengoDeSelenium = "assert";
-
-            Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
+        {             
+            Assert.IsTrue(testData.AssertRetencion.Length > 0);
         }
         [Ignore("Test ignorado por pato")]
         [TestMethod]

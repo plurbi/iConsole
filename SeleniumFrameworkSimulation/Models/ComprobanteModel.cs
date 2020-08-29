@@ -1,4 +1,4 @@
-﻿using SeleniumFrameworkSimulation.Common;
+﻿using SeleniumFrameworkSimulation.Common.Prototype;
 
 namespace SeleniumFrameworkSimulation.Models
 {
@@ -7,14 +7,11 @@ namespace SeleniumFrameworkSimulation.Models
         public int Numero_Comprobante { get; set; }
         public int ID_Comprobantes { get; set; }
 
-        public override Prototype DeepCopy()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override Prototype ShallowCopy()
+        public override Prototype GetClon()
         {
             return (Prototype)this.MemberwiseClone();
         }
+
+
     }
 }

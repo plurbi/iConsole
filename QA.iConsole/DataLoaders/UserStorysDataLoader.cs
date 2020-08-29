@@ -80,7 +80,6 @@ namespace QA.iConsole.DataLoaders
             //yield return new TestRetenciones[] { testRetencionesParams };
             //yield return new TestRetenciones[] { testRetencionesParams2 };
         }
-
         public static IEnumerable<TestDataSource_UserStory_One[]> DataLoadersWithPrototype()
         {
             TestDataSource_UserStory_One testOriginal = new TestDataSource_UserStory_One()
@@ -95,24 +94,21 @@ namespace QA.iConsole.DataLoaders
                     Tipo_Pago = 1,
                     Observaciones = "obs original"
                 },
-                AssertRetencion = "assert"
+                AssertRetencion = "assert-original"
             };
-            TestDataSource_UserStory_One testConClonacion = new TestDataSource_UserStory_One()
-            {
-                AssertRetencion = "assert"
-            };
+            TestDataSource_UserStory_One ClonacionUserStory = (TestDataSource_UserStory_One)testOriginal.GetClon();
 
-            ComprobanteOPModel ordenPagoClon = (ComprobanteOPModel)testOriginal.OrdenPago.DeepCopy();
-            testConClonacion.OrdenPago = ordenPagoClon;
 
             testOriginal.OrdenPago.Comprobante.ID_Comprobantes = 2;
             testOriginal.OrdenPago.Comprobante.Numero_Comprobante = 2;
             testOriginal.OrdenPago.Tipo_Pago = 2;
             testOriginal.OrdenPago.Observaciones = "original modificado";
+            testOriginal.AssertRetencion = "assert modificado";
+
 
             return new[] {
-                new TestDataSource_UserStory_One[] {  testOriginal },
-                new TestDataSource_UserStory_One[] {  testConClonacion }
+                new TestDataSource_UserStory_One[] { testOriginal },
+                new TestDataSource_UserStory_One[] { ClonacionUserStory }
               };
             //yield return new TestRetenciones[] { testRetencionesParams };
             //yield return new TestRetenciones[] { testRetencionesParams2 };
