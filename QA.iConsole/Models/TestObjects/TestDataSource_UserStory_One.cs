@@ -1,4 +1,4 @@
-﻿using QA.iConsole.Tests;
+﻿using SeleniumFrameworkSimulation.Models;
 using System.Collections.Generic;
 
 namespace QA.iConsole.Models.TestObjects

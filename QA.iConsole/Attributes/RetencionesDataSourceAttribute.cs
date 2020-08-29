@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using QA.iConsole.Models.TestObjects;
-using QA.iConsole.Tests;
+using SeleniumFrameworkSimulation.Models;
 using System;
 using System.Collections.Generic;
 using System.Globalization;

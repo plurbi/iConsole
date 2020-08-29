@@ -5,23 +5,6 @@ using System.ComponentModel;
 
 namespace QA.iConsole.Tests
 {
-
-    #region Proyecto automation
-
-    //estas ya existe en el proyecto real por eso no la pongo en carpeta
-    public class ComprobanteOPModel
-    {
-        public ComprobanteModel Comprobante { get; set; } = new ComprobanteModel();
-        public int Tipo_Pago { get; set; }
-
-    }
-    public class ComprobanteModel
-    {
-        public int Numero_Comprobante { get; set; }
-        public int ID_Comprobantes { get; set; }
-    }
-    #endregion
-
     [TestClass]
     public class DataLoadersTest
     {
@@ -54,7 +37,20 @@ namespace QA.iConsole.Tests
 
             Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
         }
+        [TestMethod]
+        [Category("RetencionesArgenitina")]
+        [DynamicData(nameof(UserStorysDataLoader.DataLoadersWithPrototype), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
+        public void DynamicData_and_Dataloaders_With_Prototype_Example(TestDataSource_UserStory_One testData)
+        {
+            #region Selenium
+            var op = testData.OrdenPago;
+            // manipulo la UI y obtengo el/los valores a testear
+            #endregion
 
+            string loQueObtengoDeSelenium = "assert";
+
+            Assert.AreEqual(testData.AssertRetencion, loQueObtengoDeSelenium);
+        }
         [Ignore("Test ignorado por pato")]
         [TestMethod]
         [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso1), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
