@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ABjMEktu41sz60o1eMPflKeuYuqFcnZLInWJpw6PubxKtH9rzXDfet7G8+ckNmwbeUpQVjTPzU7bs/hsQ30Ihw==",
+  "dgSpecHash": "VwuxUE2YXkf9ribdWL22pfI0w0D00no6UAjXxf5OOsGZzsV5XpRwZP7MEADuAogdn9H5MEOXJ379IzUGpzLVRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\plurbi\\Documents\\GitHub\\iConsole\\SeleniumFrameworkSimulation\\SeleniumFrameworkSimulation.csproj",
+  "projectFilePath": "C:\\Users\\Patricio\\Documents\\GitHub\\iConsole\\SeleniumFrameworkSimulation\\SeleniumFrameworkSimulation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\plurbi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\plurbi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Patricio\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

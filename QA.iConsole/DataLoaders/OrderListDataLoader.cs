@@ -19,7 +19,8 @@ namespace QA.iConsole.DataLoaders
                {
                    "Method_01",
                    "Method_02",
-                   "Method_03"
+                   "Method_03",
+
                }
             };
 

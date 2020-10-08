@@ -10,7 +10,7 @@ namespace QA.iConsole.Tests
     public class DataLoadersTest
     {
         [TestMethod]
-        [Category(TestCategoryCons.RetencionesArgetnina)]
+        //[Category(TestCategoryCons.RetencionesArgetnina)]
         [DynamicData(nameof(UserStorysDataLoader.RetencionIvaCaso1), typeof(UserStorysDataLoader), DynamicDataSourceType.Method)]
         public void Retencion_Must_Be(TestDataSource_UserStory_One testData)
         {

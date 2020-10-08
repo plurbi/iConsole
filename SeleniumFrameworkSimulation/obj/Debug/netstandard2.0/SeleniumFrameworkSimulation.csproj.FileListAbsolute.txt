@@ -7,3 +7,12 @@ C:\Users\plurbi\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\
 C:\Users\plurbi\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.csproj.CoreCompileInputs.cache
 C:\Users\plurbi\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.dll
 C:\Users\plurbi\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\bin\Debug\netstandard2.0\SeleniumFrameworkSimulation.deps.json
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\bin\Debug\netstandard2.0\SeleniumFrameworkSimulation.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\bin\Debug\netstandard2.0\SeleniumFrameworkSimulation.pdb
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.csprojAssemblyReference.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.AssemblyInfoInputs.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.AssemblyInfo.cs
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.csproj.CoreCompileInputs.cache
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.dll
+C:\Users\Patricio\Documents\GitHub\iConsole\SeleniumFrameworkSimulation\obj\Debug\netstandard2.0\SeleniumFrameworkSimulation.pdb

@@ -29,8 +29,8 @@ namespace QA.iConsole.DataLoaders
                 {
                     Comprobante = new ComprobanteModel
                     {
-                        Numero_Comprobante = 1,
-                        ID_Comprobantes = 1
+                        Numero_Comprobante = 2,
+                        ID_Comprobantes = 2
                     },
                     Tipo_Pago = 2
                 },
@@ -42,10 +42,10 @@ namespace QA.iConsole.DataLoaders
                 {
                     Comprobante = new ComprobanteModel
                     {
-                        Numero_Comprobante = 1,
-                        ID_Comprobantes = 1
+                        Numero_Comprobante = 3,
+                        ID_Comprobantes = 3
                     },
-                    Tipo_Pago = 2
+                    Tipo_Pago = 3
                 },
                 AssertRetencion = "assert"
             };
